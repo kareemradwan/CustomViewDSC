@@ -8,7 +8,7 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
-import com.kradwan.customviewdsc.R
+
 
 
 class CurrencyView(context: Context, val attrs: AttributeSet?) : FrameLayout(context, attrs) {
@@ -48,7 +48,7 @@ class CurrencyView(context: Context, val attrs: AttributeSet?) : FrameLayout(con
         val price = typedArray.getFloat(R.styleable.CurrencyView_price, 0f)
         val img = typedArray.getDrawable(R.styleable.CurrencyView_img) ?: ContextCompat.getDrawable(
             context,
-            R.mipmap.ic_launcher
+            R.drawable.ic_top_arrow
         )
 
         setData(title, subTitle)
