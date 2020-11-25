@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CurrencyView">
+
+        <attr name="title" format="string|reference" />
+        <attr name="subTitle" format="string|reference" />
+
+        <attr name="price" format="flags"></attr>
+        <attr name="img" format="reference" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,3 @@
+include ':DSCLibrary'
+include ':app'
+rootProject.name = "CustomViewDSC"
